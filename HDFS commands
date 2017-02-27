@@ -1,0 +1,3 @@
+# this command is to get the block size of the cluster, this will be in Bytes so divide it by 1024*1024
+$ hdfs getconf -confkey dfs.blocksize
+134217728
